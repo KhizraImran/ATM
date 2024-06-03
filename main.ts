@@ -1,9 +1,9 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 let myBalance = 10000; //Dollar
-console.log("Your Current Balance is:", myBalance);
 
-let myPin = 1234;
+
+let myPin = 2287;
 let pinAnswer = await inquirer.prompt([
   {
     name: "pin",
