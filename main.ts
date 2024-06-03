@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 let myBalance = 10000; //Dollar
 
 
-let myPin = 2287;
+let myPin = 2278;
 let pinAnswer = await inquirer.prompt([
   {
     name: "pin",
